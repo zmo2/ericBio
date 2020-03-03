@@ -5,7 +5,7 @@ html, body {
 
 #credit{
     position: fixed;
-    color: black;
+    color: white;
     left:0;
     bottom: 0;
     font-size: 10px;
@@ -48,7 +48,7 @@ video{
 
 .mainContents{
     background-color:rgba(27, 27, 27, 0.7);
-    color: white;
+    color: rgb(219, 203, 203);
     position: relative;
     padding: 1rem;
 
@@ -67,13 +67,30 @@ video{
 .portfolioSec{
     width: 100vw;
     height: 100vh;
+    max-width: 100%;
+}
+
+.ProjSec{
+    max-width: inherit;
+    display: block;
+}
+
+.projsBtn{
+    max-width: 400px;
+    max-height: 400px;
+    padding:0;
+    margin: auto;
+}
+
+.spacer{
+    width: 20px;
 }
 
 .my_img{
     float: left;
     padding: 5px;
-    max-width: 70%;
-    min-width: 60%;
+    width: 200px;
+    height: 200px;
     margin: 15px;
 }
 
@@ -121,7 +138,7 @@ video{
     float: left;
     position: relative;
     bottom: 80px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #4aaaa5;
     color: white;
