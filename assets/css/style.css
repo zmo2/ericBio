@@ -8,7 +8,7 @@ html, body {
     color: white;
     left:0;
     bottom: 0;
-    font-size: 10px;
+    font-size: 10%;
 }
 
 html {
@@ -57,10 +57,13 @@ video{
 .MainHeader{
     position: relative;
     height: 100%;
-    text-align: center;
-    display: flex;
+    /* text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: block;
+    width: 70%;
+    padding-top: 30%;
+    margin: auto;
     color: darkslateblue;
 }
 
@@ -77,16 +80,14 @@ video{
 
 .projsBtn{
     min-width: 200px;
-    min-height: 200px; */
+    min-height: 200px;
     max-width: 400px;
     max-height: 200px;
     padding:0;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
-
 
 
 /* .my_img{
